@@ -129,7 +129,15 @@ class ktools:
      self.put2()
      self.m()
      self.put()
-    
+     self.tr()
+     self.put5()
+     self.tr()
+     self.put2()
+     self.m()
+     self.put()
+     self.m()
+     self.m()
+
 def main():
     """ Karel code goes here! """
     kt = ktools()
