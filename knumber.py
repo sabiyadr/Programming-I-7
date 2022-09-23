@@ -148,7 +148,7 @@ def main():
     kt.ta()
     kt.putm(5)
     kt.tl()
-    kt.mm(2)
+    kt.mm(1)
 
     kt.o()
     kt.o()
@@ -159,7 +159,23 @@ def main():
     kt.o()
     kt.o()
     kt.o()
-    kt.o()
+    kt.tl()
+    kt.putm(5)
+    kt.tr()
+    kt.m()
+    kt.putm(2)
+    kt.m()
+    kt.putm(1)
+    kt.tr()
+    kt.putm(5)
+    kt.tr()
+    kt.putm(2)
+    kt.mm(1)
+    kt.putm(1)
+    kt.mm(2)
+    kt.tl() 
+    kt.tl()
+    kt.mm(4)
     pass
 
 
