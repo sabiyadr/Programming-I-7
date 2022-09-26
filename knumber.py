@@ -119,9 +119,10 @@ class ktools:
       self.pick()
       self.m()
     self.pick()
-    
-  def o(self):
-     """Print O using beepers"""
+
+  def o(self, num):
+    """Print O using beepers"""
+    for _ in range(num - 1):
      self.tl()
      self.putm(5)
      self.tr()
@@ -139,7 +140,7 @@ class ktools:
      self.tl() 
      self.tl()
      self.mm(6)
-    
+      
 def main():
     """ Karel code goes here! """
     kt = ktools()
@@ -150,32 +151,7 @@ def main():
     kt.tl()
     kt.mm(1)
 
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.o()
-    kt.tl()
-    kt.putm(5)
-    kt.tr()
-    kt.m()
-    kt.putm(2)
-    kt.m()
-    kt.putm(1)
-    kt.tr()
-    kt.putm(5)
-    kt.tr()
-    kt.putm(2)
-    kt.mm(1)
-    kt.putm(1)
-    kt.mm(2)
-    kt.tl() 
-    kt.tl()
-    kt.mm(4)
+    kt.o(10)
     pass
 
 
