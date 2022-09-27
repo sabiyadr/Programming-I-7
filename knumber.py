@@ -140,17 +140,20 @@ class ktools:
      self.tl() 
      self.tl()
      self.mm(6)
-      
+
+  def one(self, num):
+     """Print 1 using beepers"""
+     self.tl()
+     self.mm(5)
+     self.ta()
+     self.putm(5)
+     self.tl()
+     self.mm(1)
+    
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.tl()
-    kt.mm(5)
-    kt.ta()
-    kt.putm(5)
-    kt.tl()
-    kt.mm(1)
-
+    kt.one()
     kt.o(10)
     pass
 
